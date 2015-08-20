@@ -30,8 +30,9 @@ life saver of a command line process that saved my day. So whatever goes forward
 10. open -e AndroidManifest.xml  (It worked without this for me)
 // change your minSdkVersion and your targetSdkVersion to your environment settings for me it was:
 // <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="17" />
-11. ant release
-12. cd ../../../.. (this should bring you back to the project root)
+11. Add `sdk.dir=YOUR_ANDROID_HOME_PATH` to *project.properties* file
+12. ant release
+13. cd ../../../.. (this should bring you back to the project root)
 
 13. ionic build android
 
